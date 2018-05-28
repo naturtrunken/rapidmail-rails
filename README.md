@@ -9,7 +9,7 @@ Short description and motivation.
 rapidmail = Rapidmail.new(username, password)
 
 # Get the list to work with.
-list = rapidmail.recipientlist(1234)
+list = rapidmail.list(1234)
 
 # Get Peter from the list by retrieving a list of all users,
 # filtered by his email. This returns an array with one recipient
