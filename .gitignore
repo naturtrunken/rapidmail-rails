@@ -1,0 +1,7 @@
+# MacOS temporary files
+.DS_Store
+
+# JetBrain's IDE files
+.idea
+
+
