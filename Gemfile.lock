@@ -1,0 +1,23 @@
+PATH
+  remote: .
+  specs:
+    rapidmail-rails (0.1.0)
+      faraday
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    faraday (0.15.2)
+      multipart-post (>= 1.2, < 3)
+    multipart-post (2.0.0)
+    sqlite3 (1.3.13)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  rapidmail-rails!
+  sqlite3
+
+BUNDLED WITH
+   1.16.2

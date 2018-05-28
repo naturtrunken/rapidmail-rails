@@ -9,14 +9,13 @@ Gem::Specification.new do |s|
   s.version     = Rapidmail::Rails::VERSION
   s.authors     = ["Andreas Marc Klingler"]
   s.email       = ["post@andreas-klingler.de"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Rapidmail::Rails."
-  s.description = "TODO: Description of Rapidmail::Rails."
+  s.homepage    = "https://github.com/naturtrunken/rapidmail-rails"
+  s.summary     = "API wrapper for rapidmail"
+  s.description = "Provides access to the rapidmail API."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency "rails", "~> 5.2.0"
-
+  s.add_runtime_dependency "faraday"
   s.add_development_dependency "sqlite3"
 end
