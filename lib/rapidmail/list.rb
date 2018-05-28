@@ -5,7 +5,7 @@ module Rapidmail
     attr_reader :id, :conn
 
     def initialize(list_id, username, password)
-      @id = list_id
+      @id = list_id.to_i
       @conn = create_connection(username, password)
 
       # Make sure that the list is available.
