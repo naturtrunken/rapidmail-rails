@@ -13,7 +13,7 @@ module Rapidmail
     ].freeze
 
     # Instantiates a new recipient object.
-    # @param [Hash] Attributes
+    # @param [Hash] values Attributes
     def initialize(values = {})
       FIELDS.each { |field| instance_variable_set("@#{field}", values[field]) }
     end

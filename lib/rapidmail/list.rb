@@ -70,7 +70,7 @@ module Rapidmail
 
       response = @conn.post(
         "/recipients",
-        body.to_json
+        body.except('id').to_json
       ) do |req|
         req.headers['Content-Type'] = 'application/json'
       end
