@@ -1,6 +1,6 @@
 module Rapidmail
   class Recipient
-    attr_accessor :id, :email, :firstname, :lastname, :zip, :gender
+    attr_accessor :id, :email, :firstname, :lastname, :zip, :gender, :title
 
     # Available string fields
     FIELDS = %w[
@@ -10,6 +10,7 @@ module Rapidmail
       lastname
       gender
       zip
+      title
     ].freeze
 
     # Instantiates a new recipient object.
